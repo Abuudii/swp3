@@ -23,16 +23,16 @@ public class Bankomat_Beispiel {
                     System.out.println("Wie viel Geld wollen Sie einzahlen?");
                     double Einzahlung = scanner.nextDouble();
                     Kontostand = Kontostand + Einzahlung;
-                    System.out.println("Ihre " + Einzahlung + " € war erfolgreich");
+                    System.out.println("Ihre Einzahlung" + Einzahlung + " € war erfolgreich");
                     break;
                 case 2:
                     System.out.println("Wie viel Geld wollen Sie abheben?");
                     double Auszahlung = scanner.nextDouble();
                     Kontostand = Kontostand - Auszahlung;
-                    System.out.println("Ihre Auszahlung" + Auszahlung + "€ war erfolgreich");
+                    System.out.println("Ihre Auszahlung" + Auszahlung + " € war erfolgreich");
                     break;
                 case 3:
-                    System.out.println("Ihr Kontostand betraegt " + Kontostand + "€");
+                    System.out.println("Ihr Kontostand betraegt " + Kontostand + " €");
                     break;
                 case 4:
 
