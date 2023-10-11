@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Bankomat_Beispiel {
     public static void main(String[] args) {
 
+        int Auswahl=0;
         double Kontostand = 0;
         Scanner scanner = new Scanner(System.in); // Für das Einlesen der eingabe
 
@@ -14,7 +15,7 @@ public class Bankomat_Beispiel {
         System.out.println("4.Beenden");
 
 
-        int Auswahl;
+
         do {
             Auswahl = scanner.nextInt();
 
@@ -34,8 +35,6 @@ public class Bankomat_Beispiel {
                 case 3:
                     System.out.println("Ihr Kontostand betraegt " + Kontostand + " €");
                     break;
-                case 4:
-
 
             }
         } while (Auswahl != 4);
