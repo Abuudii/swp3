@@ -38,6 +38,7 @@ public class Wuerfel_Beispiel {
                 }
 
             }
+            // hh
             System.out.println('\n');
             System.out.println("Computer: " + winsOfComputer + "P");
             System.out.println("Player: " + winsOfPlayer + "P");
