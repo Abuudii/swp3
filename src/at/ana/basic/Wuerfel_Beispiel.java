@@ -62,3 +62,4 @@ public class Wuerfel_Beispiel {
     }
 
 }
+//fertig
