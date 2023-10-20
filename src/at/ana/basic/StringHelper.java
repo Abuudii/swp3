@@ -28,3 +28,4 @@ public class StringHelper{
         return -1;
     }
 }
+//fertig

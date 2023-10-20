@@ -2,7 +2,7 @@ package at.ana.basic;
 
 public class Ceaserverschluesselung {
     public static void main(String[] args) {
-        String result = encrypt(1, "zzz");
+        String result = encrypt(2, "zzz");
         System.out.println(result);
     }
 
