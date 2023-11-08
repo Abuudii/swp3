@@ -1,4 +1,4 @@
-package at.ana.basic;
+package at.ana.basic.struct;
 
 public class StringHelper{
 
