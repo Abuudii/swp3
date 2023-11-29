@@ -1,7 +1,7 @@
 package at.ana.basic.oop;
 
 import at.ana.basic.oop.car;
-
+/*
 public class index {
     public static void main(String[] args) {
 
@@ -54,3 +54,4 @@ public class index {
 
     }
 }
+*/

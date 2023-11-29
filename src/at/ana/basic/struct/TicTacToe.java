@@ -156,7 +156,7 @@ public class TicTacToe {
 
         //Es wird überprüft welcher der beiden Spieler gewonne hat
         if(igewinner == 1){
-            System.out.println("Der Spielr mit dem X hat gewonnen");
+            System.out.println("Der Spieler mit dem X hat gewonnen");
         }else if (igewinner == 2){
 
             System.out.println("Der Spieler mit der O hat gewonnen");

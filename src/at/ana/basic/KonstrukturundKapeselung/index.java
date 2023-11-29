@@ -5,16 +5,16 @@ import at.ana.basic.oop.car;
 public class index {
     public static void main(String[] args) {
 
-        car c1 = new car();
-        c1.fuelConsumption = 7;
-        c1.brand = "BMW";
-        c1.serialnumber = "B77";
-        c1.color="MattBlack";
-        c1.fuelamount= 50;
-        c1.MaxFuel= 120;
-        c1.amountOfRepetitions=5;
-        c1.fuelcomsumptionperkilometer=0.3;
+       car c1 = new car();
+        c1.setBrand("BMW");
+        c1.setColor("Darkpurple");
+        c1.setFuelamount(200);
+        c1.setSerialnumber("BMW112");
 
+        System.out.println("Brand: "+ c1.getBrand() + ", Color: "+ c1.getColor()+ ", Fuelamount: "+ c1.getFuelamount());
+
+        Engine e1 = new Engine( 140, Engine.TYPE.DIESEL);
+/*
         car c2 = new car();
         c2.fuelConsumption=5;
         c2.brand="Dodge";
@@ -51,6 +51,14 @@ public class index {
         c2.honk();
         System.out.println(c2.getRemainingRange);
         c2.getRemainingRange();
+        */
+
+
+
+       // car c3= new car(17, "Ford", "1234");
+
+
+
 
     }
 }
