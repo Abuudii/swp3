@@ -1,19 +1,23 @@
 package at.ana.basic.KonstrukturundKapeselung;
 
-import at.ana.basic.oop.car;
+import at.ana.basic.KonstrukturundKapeselung.car;
 
 public class index {
     public static void main(String[] args) {
 
-       car c1 = new car();
+
+        Engine e1 = new Engine( 140, Engine.TYPE.DIESEL, 90);
+        System.out.println(e1.getHorsepower()+"Ps "+ e1.getType()+ " "+ e1.speed);
+
+
+/*       car c1 = new car();
         c1.setBrand("BMW");
         c1.setColor("Darkpurple");
         c1.setFuelamount(200);
         c1.setSerialnumber("BMW112");
-
         System.out.println("Brand: "+ c1.getBrand() + ", Color: "+ c1.getColor()+ ", Fuelamount: "+ c1.getFuelamount());
+*/
 
-        Engine e1 = new Engine( 140, Engine.TYPE.DIESEL);
 /*
         car c2 = new car();
         c2.fuelConsumption=5;

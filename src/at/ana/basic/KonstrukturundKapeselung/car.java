@@ -2,6 +2,7 @@ package at.ana.basic.KonstrukturundKapeselung;
 
 public class car {
 
+
     private int fuelConsumption;
     private String brand;
     private String serialnumber;
@@ -15,6 +16,7 @@ public class car {
     private double getRemainingRange;
     private double fuelcomsumptionperkilometer;
     private Engine engine;
+    public int speedzone;
 
     public car(Engine engine, String brand, String color){
         this.engine=engine;
@@ -26,6 +28,17 @@ public class car {
     public void drive(){
         this.fuelamount = this.fuelamount - this.fuelConsumption;
         System.out.println("I am driving");
+    }
+
+    public void speed(){
+        if(speedzone>75){
+            System.out.println("Vollgas");
+        }else if(speedzone>25 && speedzone<75 ){
+            System.out.println("Normal");
+        }else{
+            System.out.println("Langsam");
+        }
+
     }
 
     public void bremsen(){
