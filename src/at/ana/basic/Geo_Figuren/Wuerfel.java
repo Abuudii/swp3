@@ -7,7 +7,7 @@ public class Wuerfel extends Figuren{
 
     public void Fleache(double Laenge){
         double Flaecheninhalt = 0;
-        Flaecheninhalt = Laenge * Laenge;
+        Flaecheninhalt = Laenge * Laenge * Laenge;
         System.out.println("Flaecheninhalt: " + Flaecheninhalt);
     }
 }

@@ -2,6 +2,7 @@ package at.ana.basic.Rueckspiegel;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Reifen {
     private String ReifenDurchmesser;
@@ -12,6 +13,10 @@ public class Reifen {
 
     public void Reifen(){
         this.Reader=new ArrayList<>();
+    }
+
+    public void addRad(Reifen Reifen){
+        this.Reader.add(Reifen);
     }
 
 
